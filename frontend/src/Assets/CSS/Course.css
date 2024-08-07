@@ -1,0 +1,61 @@
+/* src/components/CourseManagement.css */
+
+.course-management {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-management .ant-table {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-management .ant-table-thead > tr > th {
+    background-color: #fafafa;
+    font-weight: bold;
+  }
+  
+  .course-management .ant-table-tbody > tr > td {
+    background-color: #fff;
+  }
+  
+  .course-management .ant-btn-primary {
+    background-color: #ceb9a1;
+    border-color: #ceb9a1;
+    margin-bottom: 20px;
+  }
+  
+  .course-management .ant-btn-primary:hover {
+    background-color: #ceb9a1;
+    border-color: #ceb9a1;
+  }
+  
+  .course-management .ant-btn-danger {
+    background-color: #ff4d4f;
+    border-color: #ff4d4f;
+  }
+  
+  .course-management .ant-btn-danger:hover {
+    background-color: #ff7875;
+    border-color: #ff7875;
+  }
+  
+  .course-management .ant-modal {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .course-management .ant-modal-title {
+    font-weight: bold;
+  }
+  
+  .course-management .ant-form-item-label > label {
+    font-weight: bold;
+  }
+  

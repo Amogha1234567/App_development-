@@ -1,0 +1,61 @@
+/* src/components/UserManagement.css */
+
+.user-management {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #ceb9a1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-management .ant-table {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-management .ant-table-thead > tr > th {
+    background-color: #fafafa;
+    font-weight: bold;
+  }
+  
+  .user-management .ant-table-tbody > tr > td {
+    background-color: #fff;
+  }
+  
+  .user-management .ant-btn-primary {
+    background-color: #ceb9a1;
+    border-color: #ceb9a1;
+    margin-bottom: 20px;
+  }
+  
+  .user-management .ant-btn-primary:hover {
+    background-color: #ceb9a1;
+    border-color: #ceb9a1;
+  }
+  
+  .user-management .ant-btn-danger {
+    background-color: #ceb9a1;
+    border-color: #ceb9a1;
+  }
+  
+  .user-management .ant-btn-danger:hover {
+    background-color: #ff7875;
+    border-color: #ff7875;
+  }
+  
+  .user-management .ant-modal {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .user-management .ant-modal-title {
+    font-weight: bold;
+  }
+  
+  .user-management .ant-form-item-label > label {
+    font-weight: bold;
+  }
+  

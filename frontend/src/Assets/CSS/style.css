@@ -1,0 +1,114 @@
+/* Ensure the HTML and body take up the full viewport height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for the background image, covering the full viewport */
+.login-body, .register-body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-image: url('../Images/home3.jpg');
+    background-repeat: repeat;
+    
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+}
+
+/* Centered box styling */
+.login-main, .register-main {
+    width: 250px; /* Smaller width */
+    padding: 20px; /* Reduced padding */
+    background-color: #ddd7d0;
+    /* border-radius: 10px;
+    box-shadow: 2px 2px 6px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; 
+    box-sizing: border-box; */
+}
+
+/* Flexbox container for buttons with spacing */
+.button-container {
+    /* display: flex; */
+    gap: 15px; /* Reduced space between buttons */
+}
+
+/* Button styling */
+.login-main button, .register-main button {
+    height: 50px; /* Smaller height */
+    width: 100px; /* Smaller width */
+    font-size: 14px; /* Smaller font size */
+    border: none;
+    gap:15px;
+    background-color: #b0a79b;
+    color: white;
+    cursor: pointer; /* Add pointer cursor */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+/* Button hover effect */
+.login-main button:hover, .register-main button:hover {
+    box-shadow: 2px 3px 5px black;
+    background-color: #a0958a;
+}
+
+/* Checkbox container styling */
+.checkbox-container {
+    /* display: flex; */
+    align-items: center;
+    font-size: 14px; /* Adjust font size for better alignment */
+    gap: 15px;
+}
+
+/* Checkbox styling */
+.checkbox-container input[type="checkbox"] {
+    transform: scale(1.2); /* Smaller checkbox */
+}
+
+/* Error message styling */
+.errP {
+    color: red;
+    margin-top: 10px;
+    text-align: center; /* Center error message */
+    font-size: 14px; /* Smaller font size */
+}
+
+/* Paragraph styling */
+p {
+    margin: 8px 0; /* Adjust margin for better spacing */
+    font-size: 14px; /* Smaller font size */
+    line-height: 1.5;
+    text-align: center; /* Center align paragraphs */
+}
+
+/* Heading styling */
+h1 {
+    font-size: 20px; /* Smaller font size */
+    text-align: center;
+    margin-bottom: 15px; /* Reduced margin below heading */
+}
+
+/* Input field styling */
+.logininput {
+    font-size: 14px; /* Smaller font size */
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+    outline: none;
+    padding: 8px; /* Reduced padding */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    margin-bottom: 10px; /* Space below input fields */
+}
+
+/* Input field focus effect */
+input:focus {
+    border-color: rgb(232, 228, 234);
+    caret-color: rgb(220, 215, 226);
+}

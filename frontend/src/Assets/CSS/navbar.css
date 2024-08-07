@@ -1,0 +1,54 @@
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddd7d0;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    height: 40px; /* Adjust the size of the logo as needed */
+    margin-right: 10px;
+  }
+  
+  .logo a {
+    color: #141414;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    color: #0a0a0a;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .auth-links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .auth-links a {
+    color: #181616;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Add hover effects */
+  .nav-links li a:hover, .auth-links a:hover {
+    text-decoration: underline;
+  }
+  
